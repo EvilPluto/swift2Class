@@ -1,0 +1,22 @@
+let 定义常量
+var 定义变量
+
+//Ps 养成每一次使用一个对象，都要去判断是否为空
+let optionalInt: Int? = 9 // 可选常量，可能有值，可能没有 －－ 正常情况下为9， 可能为空
+let optionalInt2: Int = optionalInt! // 强制赋值，保证有值
+let optionString: String! = “2333”
+
+where用法
+
+C语言中：
+接口与抽象类的区别
+接口用于强调动作，方法
+抽象类用于强调数据，属性
+
+Swift中：
+protocols（协议）：一套动作规范 －>接口
+Extensions（）：
+
+
+xcode项目使用：
+1.plist使用：plist里保存着LaunchScreen等storyboard信息，plist处右键可以选择source code查看xml
